@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    background: #111827;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-size: 30px;
+}
+
+#board-title-home, #board-title-guest {
+    width: 200px;
+    height: 1px;
+}
+
+button {
+    padding: 8px; 
+    border-radius: 5px;
+    background-color: transparent;
+    color: #9AABD8;
+    font-size: 18px;
+    border: 1px solid #9AABD8;
+    cursor: pointer;
+    
+}
+
+.score-style {
+    height: 120px;
+    width: 165px;
+    margin: 20px;
+    background: black;
+    border-radius: 5px;
+    font-size: 65px;
+    color: #F94F6D;
+}
+ 
